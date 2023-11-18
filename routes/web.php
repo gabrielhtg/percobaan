@@ -21,4 +21,8 @@ Route::get('/biodata', function() {
    return view('pagebiodata.tesa');
 });
 
+Route::get('/akreditasi', function() {
+    return view('akreditasi.akreditas');
+});
+
 
